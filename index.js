@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 const program = require('commander')
+const fs = require('fs')
 
 const helpOptions = require('./lib/core/help')
 
 const createCommands = require('./lib/core/create')
-
 // 版本号
 program.version(require('./package.json').version)
 
