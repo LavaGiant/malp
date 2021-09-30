@@ -23,6 +23,8 @@ React项目模块已经帮你配置：
 
 ```shell
 malp create your_project_name
+or
+malp create your_project_name -l ts
 ```
 
 创建JavaScript项目
