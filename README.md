@@ -19,21 +19,15 @@ React项目模块已经帮你配置：
 * redux（redux的安装和配置，并配置了thunk中间件，另外有动态加载子模块，后面详细说明）
 * router（router的安装和配置，并增加了全局路由守卫和集中管理功能，后面详细说明 ）
 
-创建TypeScript项目
+创建项目
 
 ```shell
 malp create your_project_name
-or
-malp create your_project_name -l ts
 ```
 
-创建JavaScript项目
+选择语言
 
-```shell
-malp create your_project_name -l js
-or
-malp create your_project_name -l javascript
-```
+![language](images\language.png)
 
 自动拉取项目模板
 
@@ -49,10 +43,15 @@ malp create your_project_name -l javascript
 
 ### 创建Redux子模块
 
+默认路径
+
 ```shell
 malp add store # 例如malp add store，默认会放到当前终端路径文件夹下
-malp add store -d src/pages/404 # 也可以指定文件夹(基于当前终端路径下查找)
 ```
+
+指定路径(基于当前终端路径下查找)
+
+![path](images\path.png)
 
 创建完成后，不需要手动配置，已经动态将所有子模块集成进去：
 
