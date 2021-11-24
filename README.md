@@ -27,7 +27,7 @@ malp create your_project_name
 
 选择语言
 
-![language](./images\language.png)
+![language](images/language.png)
 
 自动拉取项目模板
 
