@@ -69,6 +69,10 @@ files.keys().forEach((key: string) => {
 })
 ```
 
+redux子模块默认会使用创建项目时所使用的语言，如果想更改子模块的文件类型，可以使用`malp change language`来改变当前默认创建语言
+
+![change-language](F:\malp\malp\images\change-language.png)
+
 ### 路由全局守卫
 
 默认关闭守卫功能，如需开启，在` App.tsx`文件中设置 `loginAuth={true}`后将需要鉴权的页面添加上`meta:{auth: true}`
@@ -147,4 +151,3 @@ export const renderRoutes = (routes: RouteItem[], auth = false, extraProps = {},
     })
   )) : null;
 ```
-
