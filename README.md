@@ -27,7 +27,7 @@ malp create your_project_name
 
 选择语言
 
-![language](images\language.png)
+![language](images/language.png)
 
 自动拉取项目模板
 
@@ -51,7 +51,7 @@ malp add store # 例如malp add store，默认会放到当前终端路径文件�
 
 指定路径(基于当前终端路径下查找)
 
-![path](images\path.png)
+![path](images/path.png)
 
 创建完成后，不需要手动配置，已经动态将所有子模块集成进去：
 
@@ -71,7 +71,7 @@ files.keys().forEach((key: string) => {
 
 redux子模块默认会使用创建项目时所使用的语言，如果想更改子模块的文件类型，可以使用`malp change language`来改变当前默认创建语言
 
-![change-language](F:\malp\malp\images\change-language.png)
+![change-language](images/change-language.png)
 
 ### 路由全局守卫
 
