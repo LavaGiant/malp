@@ -29,11 +29,11 @@ malp create your_project_name
 
 你会被提示选取一个 preset。你可以选默认的包含了基本的 Babel + ESLint 设置的 preset，也可以选“手动选择特性”来选取需要的特性。
 
-![preset](images\preset.png)
+![preset](images/preset.png)
 
 这个默认的设置非常适合快速创建一个新项目的原型，而手动设置则提供了更多的选项，它们是面向生产的项目更加需要的。
 
-![plugin](images\plugin.png)
+![plugin](images/plugin.png)
 
 * Axios（网络请求axios的安装以及二次封装）
 * Redux（redux的安装和配置，并配置了thunk中间件以及immutable，另外有动态加载子模块，后面详细说明）
