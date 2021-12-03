@@ -15,9 +15,7 @@ React项目模块已经帮你配置：
 
 * 常用的目录结构（你可以在此基础上修改）
 * craco.config.js（其中配置了别名，你可以自行修改和配置更多）
-* network（网络请求axios的安装以及二次封装）
-* redux（redux的安装和配置，并配置了thunk中间件，另外有动态加载子模块，后面详细说明）
-* router（router的安装和配置，并增加了全局路由守卫和集中管理功能，后面详细说明 ）
+* 其他等可选配置
 
 创建项目
 
@@ -25,9 +23,21 @@ React项目模块已经帮你配置：
 malp create your_project_name
 ```
 
-选择语言
+选择你要使用的语言。
 
 ![language](images/language.png)
+
+你会被提示选取一个 preset。你可以选默认的包含了基本的 Babel + ESLint 设置的 preset，也可以选“手动选择特性”来选取需要的特性。
+
+![preset](images\preset.png)
+
+这个默认的设置非常适合快速创建一个新项目的原型，而手动设置则提供了更多的选项，它们是面向生产的项目更加需要的。
+
+![plugin](images\plugin.png)
+
+* Axios（网络请求axios的安装以及二次封装）
+* Redux（redux的安装和配置，并配置了thunk中间件以及immutable，另外有动态加载子模块，后面详细说明）
+* Router（router的安装和配置，并增加了全局路由守卫和集中管理功能，后面详细说明 ）
 
 自动拉取项目模板
 
